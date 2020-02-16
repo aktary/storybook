@@ -14,7 +14,7 @@ Each preset has its own installation instructions, but the idea of presets is to
 For example, to get typescript support, first install the addon:
 
 ```sh
-yarn add @storybook/preset-typescript --dev
+yarn add -D @storybook/preset-typescript react-docgen-typescript-loader ts-loader fork-ts-checker-webpack-plugin
 ```
 
 Then load it in the file `main.js` in your storybook folder (`.storybook` by default):
